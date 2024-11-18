@@ -1,0 +1,67 @@
+/* Card styling */
+
+.card-container {
+  background-color: #0f0f0f;
+}
+
+.card-price {
+  /* Border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  background-color: #30312b; /* White background inside the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 380px; /* Smooth transition */
+  height: 550px;
+  display: flex;
+  justify-content: center;
+
+  /* Set card height to make it taller */
+}
+
+/* Increase the height of the card when hovering */
+.card-price:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Card header styling */
+.card-header {
+  background-color: #30312b; /* Blue background for header */
+  color: white; /* White text */
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 20px;
+  text-align: center;
+  height: 100%; /* Ensure the body takes up the available space */
+}
+
+.description {
+  font-size: 0.7rem;
+}
+/* Card title */
+.card-title {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Card text */
+.card-text {
+  font-size: 1rem;
+  color: white; /* Dark text color */
+  margin-bottom: 10px;
+  height: 60%; /* Adjust text area height to ensure text doesn't overflow */
+  overflow: hidden; /* Hide overflowed text */
+}
+
+.video-list {
+  text-align: start;
+}
+.video-list > li {
+  font-size: 0.84rem;
+}
